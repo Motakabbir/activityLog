@@ -1,5 +1,5 @@
 {
-    "name": "dolar/activity-log",
+    "name": "dolar/ActivityLog",
     "description": "User activity log manager. All kind of database activity will be tracked",
     "type": "package",
     "license": "MIT",
