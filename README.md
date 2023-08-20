@@ -14,7 +14,7 @@ User activity log manager. All kind of database activity will be
 ### Run the following command to pull in the latest version:
 
 ```
-composer require dolar/ActivityLog
+composer require dolar/activitylog
 ```
 
 ### Lumen only
