@@ -1,6 +1,6 @@
 <?php
 
-namespace dolar\ActivityLog\Http\Middleware;
+namespace dolar\Activitylog\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

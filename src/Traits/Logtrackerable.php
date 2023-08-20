@@ -1,5 +1,5 @@
 <?php
-namespace dolar\ActivityLog\Traits;
+namespace dolar\Activitylog\Traits;
 
 use stdClass;
 use Illuminate\Support\Facades\DB;

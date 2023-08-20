@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Dolar\\ActivityLog\\": "src/"
+            "Dolar\\Activitylog\\": "src/"
         }
     },
     "authors": [
@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "dolar\\ActivityLog\\LogtrackerServiceProvider"
+                "dolar\\Activitylog\\LogtrackerServiceProvider"
             ]
         }
     },

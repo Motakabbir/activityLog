@@ -1,6 +1,6 @@
 <?php 
 
-namespace dolar\ActivityLog;
+namespace dolar\Activitylog;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Events\EventServiceProvider;

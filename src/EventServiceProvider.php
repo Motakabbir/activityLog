@@ -1,9 +1,9 @@
 <?php
 
-namespace dolar\ActivityLog;
+namespace dolar\Activitylog;
 
 use Illuminate\Auth\Events\Login;
-use dolar\ActivityLog\Listeners\LoginListener;
+use dolar\Activitylog\Listeners\LoginListener;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
 

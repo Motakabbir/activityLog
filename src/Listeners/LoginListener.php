@@ -1,6 +1,6 @@
 <?php
 
-namespace dolar\ActivityLog\Listeners;
+namespace dolar\Activitylog\Listeners;
 
 use Illuminate\Http\Request;
 use Illuminate\Auth\Events\Login;

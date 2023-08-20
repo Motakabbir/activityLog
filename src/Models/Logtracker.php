@@ -1,6 +1,6 @@
 <?php
 
-namespace dolar\ActivityLog\Models;
+namespace dolar\Activitylog\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
