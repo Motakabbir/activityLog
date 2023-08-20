@@ -15,7 +15,7 @@
     "require": {},  
     "autoload": {
         "psr-4": {
-            "Dolar\\Activitylog\\": "src/"
+            "dolar\\Activitylog\\": "src/"
         }
     },     
     "extra": {
