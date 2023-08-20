@@ -1,27 +1,28 @@
 {
     "name": "dolar/activitylog",
     "description": "User activity log manager. All kind of database activity will be tracked",
-    "type": "package",
     "license": "MIT",
+    "type": "package",
+    
+    "authors": [
+        {
+            "name": "motakabbirmorshed",
+            "email": "morsheddolar1990@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true, 
+    "require": {},  
     "autoload": {
         "psr-4": {
             "Dolar\\Activitylog\\": "src/"
         }
-    },
-    "authors": [
-        {
-            "name": "Motakabbir Morshed",
-            "email": "dolardx@gmail.com"
-        }
-    ],
+    },     
     "extra": {
         "laravel": {
             "providers": [
                 "dolar\\Activitylog\\LogtrackerServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true, 
-    "require": {}
+    }
 }
