@@ -4,6 +4,7 @@ namespace dolar\Activitylog\Traits;
 use stdClass;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
+use App\Models\User;
 
 trait Logtrackerable
 {
@@ -42,7 +43,7 @@ trait Logtrackerable
         //     'officeNameEng' => $userInfo['officeNameEng'],
         //     'officeNameBng' => $userInfo['officeNameBng']
         // ];
-        $userdata=User::with('employees','employee_geo')->find(Auth::id());
+        $userdata=User::find(auth()->user()->id);
   
 
 
@@ -60,7 +61,7 @@ trait Logtrackerable
         }
 
         DB::table(self::$logTable)->insert([
-            'users'              => $userInfo ?? '',             
+            'users'              => $userdata ?? '',             
             'user_id'            => $userId,
             'username'            => auth()->user()->name,
             'log_date'           => $dateTime,
